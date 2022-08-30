@@ -13,9 +13,15 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+      'midnight' : '#121063',
+      'blue' : '#1d4ed8'
     },
     fontFamily: {
       sans: ['Outfit', 'sans-serif'],
+    },
+    container:{
+      center:true,
+      padding:'2rem',
     },
     extend: {},
   },
