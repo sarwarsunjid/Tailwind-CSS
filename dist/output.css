@@ -645,9 +645,24 @@ video {
   border-width: 2px;
 }
 
+.border-l-emerald-500 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(16 185 129 / var(--tw-border-opacity));
+}
+
 .border-r-emerald-500 {
   --tw-border-opacity: 1;
   border-right-color: rgb(16 185 129 / var(--tw-border-opacity));
+}
+
+.border-l-midnight {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(18 16 99 / var(--tw-border-opacity));
+}
+
+.border-r-midnight {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(18 16 99 / var(--tw-border-opacity));
 }
 
 .bg-blue {
@@ -660,9 +675,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.p-8 {
+  padding: 2rem;
 }
 
 .py-4 {
@@ -725,6 +739,14 @@ video {
 .text-midnight {
   --tw-text-opacity: 1;
   color: rgb(18 16 99 / var(--tw-text-opacity));
+}
+
+.customBtn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @media (min-width: 768px) {

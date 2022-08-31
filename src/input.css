@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.customBtn{
+    @apply bg-purple;
+    @apply shadow-md;
+}

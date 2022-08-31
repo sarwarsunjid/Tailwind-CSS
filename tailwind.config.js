@@ -14,7 +14,8 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow,
       'midnight' : '#121063',
-      'blue' : '#1d4ed8'
+      'blue' : '#1d4ed8',
+      'purple' : '#6b21a8',
     },
     fontFamily: {
       sans: ['Outfit', 'sans-serif'],
